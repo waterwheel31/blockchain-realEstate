@@ -19,11 +19,12 @@
  */
 
 const HDWalletProvider = require('truffle-hdwallet-provider');
-const mnemonic = 'host mosquito garment crater horn craft squirrel derive slight peanut guitar eager';
-// const infuraKey = "fj4jll3k.....";
+//const mnemonic = 'host mosquito garment crater horn craft squirrel derive slight peanut guitar eager';
+const infuraKey = "https://rinkeby.infura.io/v3/4290f462d0b34d2b92cd81fcc76f58d3";
 //
-// const fs = require('fs');
-// const mnemonic = fs.readFileSync(".secret").toString().trim();
+const fs = require('fs');
+const mnemonic = fs.readFileSync("./../.secret").toString().trim();
+// const infuraKey = fs.readFileSync(".infuraKey").toString().trim();
 
 module.exports = {
   /**
@@ -51,7 +52,7 @@ module.exports = {
 
      rinkeby:{
        provider: function(){
-         return new HDWalletProvider(mnemonic, 'https://rinkeby.infura.io/v3/acc3a7df88e14ef09cdb6aafd334f146');
+         return new HDWalletProvider(mnemonic, infuraKey);
        },
        network_id: "4"
        
