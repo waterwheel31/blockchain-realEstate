@@ -13,10 +13,10 @@ This is a demonstration of Ethereum ERC721 token on Rinkby test blockchain netwo
 ---
 ## Deployed Contracts
 - Contract Address
-    - Verifier: 0x070240dC810deac6b0d56086c925dCf44cc36a33
-    - SolnSquareVerifier: 0x5268Fe638d4a27ca03FAce7305BA6435881e3701
-- OpenSea MarketPlace Storefront: https://rinkeby.opensea.io/storefront/realestatoken
-- Contract ABIs (see the bottom of this document)
+    - Verifier: 0x42F32c3F849b79c2777Bf98d53967acC5B6Db1a2
+    - SolnSquareVerifier: 0xbfef154E42AfA895051434f06B0dE91CEdDBd7BF
+- OpenSea MarketPlace Storefront: https://rinkeby.opensea.io/assets/0xf1414b95238953e3d61ff0ee17a8264cffc0d966/1
+
 
 
 
