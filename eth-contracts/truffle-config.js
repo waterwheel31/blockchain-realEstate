@@ -19,7 +19,6 @@
  */
 
 const HDWalletProvider = require('truffle-hdwallet-provider');
-//const mnemonic = 'host mosquito garment crater horn craft squirrel derive slight peanut guitar eager';
 const infuraKey = "https://rinkeby.infura.io/v3/4290f462d0b34d2b92cd81fcc76f58d3";
 //
 const fs = require('fs');
